@@ -2,7 +2,7 @@
 .fe_fileexplorer_invisible { visibility: hidden; }
 .fe_fileexplorer_disabled { filter: grayscale(95%); opacity: 0.6; }
 
-.fe_fileexplorer_open_icon { background-image: url('fileexplorer_sprites.png'); width: 24px; height: 24px; background-position: -48px -96px; image-rendering: pixelated; }
+.fe_fileexplorer_open_icon { background-image: url('https://vfss.netlify.app/fileexplorer_sprites.png'); width: 24px; height: 24px; background-position: -48px -96px; image-rendering: pixelated; }
 
 .fe_fileexplorer_wrap { position: relative; font-size: 1.0em; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; cursor: default; height: 100%; min-height: 9em; }
 .fe_fileexplorer_wrap .fe_fileexplorer_operation_in_progress { cursor: progress; }
@@ -193,7 +193,7 @@
 .fe_fileexplorer_wrap .fe_fileexplorer_statusbar_wrap.fe_fileexplorer_statusbar_wrap_multiline .fe_fileexplorer_action_progress_msg_wrap:first-child { margin-left: 15px; border-left: 0 none; padding-left: 0; }
 .fe_fileexplorer_wrap .fe_fileexplorer_statusbar_wrap.fe_fileexplorer_statusbar_wrap_multiline .fe_fileexplorer_action_progress_msg_wrap_last { flex-grow: 1; }
 
-@font-face { font-family: 'fe_fileexplorer_actions'; src: url('fileexplorer_actions.woff?20200530-01') format('woff'); font-weight: normal; font-style: normal; font-display: block; }
+@font-face { font-family: 'fe_fileexplorer_actions'; src: url('https://vfss.netlify.app/fileexplorer_actions.woff') format('woff'); font-weight: normal; font-style: normal; font-display: block; }
 
 .fe_fileexplorer_wrap .fe_fileexplorer_action_progress_msg_icon { font-family: 'fe_fileexplorer_actions' !important; speak: none; font-weight: normal; font-variant: normal; text-transform: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1; }
 .fe_fileexplorer_wrap .fe_fileexplorer_action_progress_msg_icon.fe_fileexplorer_action_progress_msg_icon_uploads_in_progress::before { content: '\E900'; }
